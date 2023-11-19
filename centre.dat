@@ -1,0 +1,93 @@
+ Final State
+  WF centre and spread    1  (  2.426543,  1.400984,  0.000000 )     1.31831347
+  WF centre and spread    2  (  2.410497,  1.391729, -0.000000 )     1.31733219
+  WF centre and spread    3  (  2.429565,  1.402682,  0.000000 )     1.34605138
+  WF centre and spread    4  (  4.904763,  1.400983, -0.000000 )     1.31831297
+  WF centre and spread    5  (  4.920810,  1.391729,  0.000000 )     1.31733301
+  WF centre and spread    6  (  4.901741,  1.402682,  0.000000 )     1.34605114
+  WF centre and spread    7  (  0.000000,  2.801941,  0.000000 )     1.31827002
+  WF centre and spread    8  (  0.000000,  2.805407, -0.000000 )     1.34604843
+  WF centre and spread    9  (  0.000000,  2.783416,  0.000000 )     1.31733295
+  WF centre and spread   10  (  3.665652,  3.547157,  0.000000 )     1.31826936
+  WF centre and spread   11  (  3.665654,  3.543691,  0.000000 )     1.34604815
+  WF centre and spread   12  (  3.665652,  3.565682,  0.000000 )     1.31733210
+  WF centre and spread   13  ( -1.239110,  4.948114, -0.000000 )     1.31831297
+  WF centre and spread   14  ( -1.255157,  4.957369, -0.000000 )     1.31733301
+  WF centre and spread   15  ( -1.236088,  4.946416, -0.000000 )     1.34605114
+  WF centre and spread   16  (  1.239111,  4.948113, -0.000000 )     1.31831281
+  WF centre and spread   17  (  1.255157,  4.957368,  0.000000 )     1.31733135
+  WF centre and spread   18  (  1.236088,  4.946416, -0.000000 )     1.34605110
+  WF centre and spread   19  (  3.665653,  0.000000,  1.884296 )     1.22999303
+  WF centre and spread   20  (  3.665653,  0.000000,  1.884296 )     1.22676164
+  WF centre and spread   21  (  3.665653,  0.000000,  1.884296 )     1.21990147
+  WF centre and spread   22  ( -1.832827,  3.174549,  1.884296 )     1.22999443
+  WF centre and spread   23  ( -1.832827,  3.174549,  1.884296 )     1.22287817
+  WF centre and spread   24  ( -1.832827,  3.174549,  1.884296 )     1.22327095
+  WF centre and spread   25  (  1.832827,  3.174549,  1.884296 )     1.22999439
+  WF centre and spread   26  (  1.832827,  3.174549,  1.884296 )     1.22287672
+  WF centre and spread   27  (  1.832827,  3.174549,  1.884296 )     1.22327043
+  Sum of centres and spreads ( 43.987840, 76.189174, 16.958665 )    34.91902880
+ 
+         Spreads (Ang^2)       Omega I      =    33.524104933
+        ================       Omega D      =     0.009691221
+                               Omega OD     =     1.385232644
+    Final Spread (Ang^2)       Omega Total  =    34.919028798
+ ------------------------------------------------------------------------------
+ Time for wannierise          230.145 (sec)
+
+ Writing checkpoint file WO3.chk... done
+
+ *---------------------------------------------------------------------------*
+ |                               PLOTTING                                    |
+ *---------------------------------------------------------------------------*
+ 
+ 
+ Calculating interpolated band-structure
+ 
+ Time to calculate interpolated band structure       2.494 (sec)
+ 
+      Wannier Function Num:    1       Maximum Im/Re Ratio =    0.000001
+      Wannier Function Num:    2       Maximum Im/Re Ratio =    0.000000
+      Wannier Function Num:    3       Maximum Im/Re Ratio =    0.000000
+      Wannier Function Num:    4       Maximum Im/Re Ratio =    0.000000
+      Wannier Function Num:    5       Maximum Im/Re Ratio =    0.000000
+      Wannier Function Num:    6       Maximum Im/Re Ratio =    0.000001
+      Wannier Function Num:    7       Maximum Im/Re Ratio =    0.000000
+      Wannier Function Num:    8       Maximum Im/Re Ratio =    0.000001
+      Wannier Function Num:    9       Maximum Im/Re Ratio =    0.000001
+      Wannier Function Num:   10       Maximum Im/Re Ratio =    0.000000
+      Wannier Function Num:   11       Maximum Im/Re Ratio =    0.000000
+      Wannier Function Num:   12       Maximum Im/Re Ratio =    0.000000
+      Wannier Function Num:   13       Maximum Im/Re Ratio =    0.000001
+      Wannier Function Num:   14       Maximum Im/Re Ratio =    0.000000
+      Wannier Function Num:   15       Maximum Im/Re Ratio =    0.000000
+      Wannier Function Num:   16       Maximum Im/Re Ratio =    0.000001
+      Wannier Function Num:   17       Maximum Im/Re Ratio =    0.000000
+      Wannier Function Num:   18       Maximum Im/Re Ratio =    0.000000
+      Wannier Function Num:   19       Maximum Im/Re Ratio =    0.000001
+      Wannier Function Num:   20       Maximum Im/Re Ratio =    0.000001
+      Wannier Function Num:   21       Maximum Im/Re Ratio =    0.000001
+      Wannier Function Num:   22       Maximum Im/Re Ratio =    0.000001
+      Wannier Function Num:   23       Maximum Im/Re Ratio =    0.000001
+      Wannier Function Num:   24       Maximum Im/Re Ratio =    0.000001
+      Wannier Function Num:   25       Maximum Im/Re Ratio =    0.000001
+      Wannier Function Num:   26       Maximum Im/Re Ratio =    0.000001
+      Wannier Function Num:   27       Maximum Im/Re Ratio =    0.000001
+  
+ Time for plotting           2181.988 (sec)
+ Total Execution Time        2412.837 (sec)
+
+ *===========================================================================*
+ |                             TIMING INFORMATION                            |
+ *===========================================================================*
+ |    Tag                                                Ncalls      Time (s)|
+ |---------------------------------------------------------------------------|
+ |kmesh: get                                        :         1         0.025|
+ |overlap: allocate                                 :         1         0.000|
+ |overlap: read                                     :         1         0.564|
+ |dis: main                                         :         1         0.101|
+ |wann: main                                        :         1       230.145|
+ |plot: main                                        :         1      2181.988|
+ *---------------------------------------------------------------------------*
+ 
+ All done: wannier90 exiting
