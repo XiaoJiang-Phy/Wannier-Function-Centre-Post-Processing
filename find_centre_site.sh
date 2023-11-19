@@ -20,7 +20,7 @@ for i in ${atoms}
    for p in ${proj}
     do
        ((j++))
-       grep "$j  (" "centre.dat" | awk -v c1=$i -v c2=$p '{print c1, c2, $5, $7, $8, $9, $11}' >> centre_site.dat
+       grep " $j  (" "centre.dat" | awk -v c1=$i -v c2=$p '{print c1, c2, $5, $7, $8, $9, $11}' >> centre_site.dat
     done
  done
 grep "Sum of centres and spreads" "centre.dat"| awk '{print "#", $0}' >> centre_site.dat
