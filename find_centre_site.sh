@@ -1,5 +1,5 @@
 #!/bin/sh
-
+# Extract the Cartesian coordinates and spread of the Wannier function center in the output file prefix.wout of wannier90
 #Set the context keyword
 keyword_before='Final State'
 keyword_after='Spreads (Ang^2)'
